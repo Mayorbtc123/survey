@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 4rem;
+  scroll-behavior: smooth;
+  outline: none;
+}
+
+body {
+  background: url(./img/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220vh;
+  background-position: center;
+}
+
+.fix {
+  background: url(./img/about.jpg);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 7vh;
+}
+
+.head {
+  justify-content: center;
+  background-color: rgba(230, 214, 193, 0.609);
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 50px 40px;
+  border-radius: 20px;
+}
+
+.head .survey form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.head .survey h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+.head .survey p {
+  padding-bottom: 10px;
+}
+
+.head .survey input {
+  height: 20px;
+  border-color: white;
+  height: 2rem;
+  padding-left: 10px;
+}
